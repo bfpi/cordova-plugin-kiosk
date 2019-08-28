@@ -72,11 +72,6 @@
         <uses-permission android:name="android.permission.STATUS_BAR" />
         <uses-permission android:name="android.permission.REORDER_TASKS"/>
         <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-
-        <permission android:name="android.permission.STATUS_BAR_SERVICE"
-          android:label="@string/activity_name"
-          android:description="@string/activity_name"
-          android:protectionLevel="signature" />
       </config-file>
 
       <source-file src="android/KioskActivity.java" target-dir="src/jk/cordova/plugin/kiosk" />
